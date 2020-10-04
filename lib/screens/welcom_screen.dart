@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sales/components/costum_btn.dart';
+import 'package:sales/constance.dart';
 import 'package:sales/screens/sales_creation_screen.dart';
 import 'package:sales/screens/sales_preview_screen.dart';
 import 'package:sales/screens/storage_money_screen.dart';
