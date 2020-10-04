@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'components/costum_btn.dart';
+import 'package:sales/screens/sales_creation_screen.dart';
+import 'package:sales/screens/sales_preview_screen.dart';
+import 'package:sales/screens/storage_money_screen.dart';
+import 'package:sales/screens/welcom_screen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -15,24 +18,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text('وليد صبيع'),
-        ),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              MainBTN(btnName: 'انشاء فاتوره مبيعات',),
-              SizedBox(height: 12.0,),
-              MainBTN(btnName: 'عرض فواتير المبيعات',),
-              SizedBox(height: 12.0,),
-              MainBTN(btnName: 'تقارير المخزن والدرج',),
-            ],
-          ),
-        ),
-      ),
+      initialRoute: WelcomeScreen.id,
+      routes: {
+        WelcomeScreen.id: (context) => WelcomeScreen(),
+        SalesCreationScreen.id: (context) => SalesCreationScreen(),
+        SalesPreviewScreen.id: (context) => SalesPreviewScreen(),
+        StorageMoneyScreen.id: (context) => StorageMoneyScreen(),
+      },
     );
   }
 }
