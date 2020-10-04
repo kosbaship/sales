@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862751147866",
+    "firebase_url": "https://sales-app-d1c38.firebaseio.com",
+    "project_id": "sales-app-d1c38",
+    "storage_bucket": "sales-app-d1c38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862751147866:android:36e3d01d0b0f6c70df1563",
+        "android_client_info": {
+          "package_name": "com.kosbaship.sales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862751147866-s8rt925esd12kv63310l37e7kp9kjgjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBayl64JXHzfr5QdZh3_6CZlS0GVdTsFx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862751147866-s8rt925esd12kv63310l37e7kp9kjgjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
